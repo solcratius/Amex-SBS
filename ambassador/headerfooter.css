@@ -1,0 +1,574 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* Global Navigation styles - BEGIN */
+div#nav-container {
+	background-color:#002663;
+	left:0px !important;
+	position:fixed;
+	top:0px !important;
+	width:100%;
+	z-index:999999;
+}
+div#mobile-nav-content,div#nav-menu-layer{display:none;}
+div#nav-content {
+	height:74px;
+	margin:0 auto;
+	max-width:960px;
+	width:100%;
+}
+span#ss-logo {
+	background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/spr-sbs-r2.png") no-repeat -338px top;
+	display:inline-block;
+	height:74px;
+	vertical-align:middle;
+	width:106px;
+}
+ul#global-nav {
+	height:74px;
+	vertical-align:middle;
+}
+ul#global-nav  li {
+	display:inline-block;
+	float:right;
+	height:74px;
+	padding:0 2.1%;
+	text-align:center;
+	text-transform:uppercase;
+	vertical-align:top;
+}
+ul#global-nav  li.activeMenu {
+	background-color:#fff;
+}
+ul#global-nav  li.activeMenu a {
+	color:#0070B7;
+}
+ul#global-nav  li#sslogo {float:left;height:74px;padding:0px;}
+ul#global-nav  li#amexlogo {height:55px;padding: 19px 2.1% 0;}
+ul#global-nav  li a {
+	color:#fff;
+	display:inline-block;
+	font-family:"BentonSans-Bd",Arial,sans-serif;
+	font-size:16px;
+	font-style:normal;
+	font-weight:bold;
+	line-height:normal;
+	padding:26px 0 27px;
+}
+ul#global-nav  li:hover {background-color:#F1F1F1;}
+ul#global-nav  li:hover a {color:#0070B7;}
+ul#global-nav  li a:hover {text-decoration:none;}
+ul#global-nav  li#amexlogo a,ul#global-nav  li#sslogo a {display:inline-block;padding:0;vertical-align: middle;}
+ul#global-nav  li#amexlogo:hover, ul#global-nav  li#sslogo:hover {background-color:#002663;}
+ul#global-nav  li#amexlogo span {
+	background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/spr-sbs-r2.png") no-repeat -450px top;
+	display:inline-block;
+	height:35px;
+	vertical-align:middle;
+	width:40px;
+}
+div#nav-joinin-layer {
+	display:none;
+	filter:alpha(opacity=95);
+	opacity:0.95;
+	position:absolute;
+	width:100%;
+	z-index:1;
+}
+div#nav-joinin-container{
+	background-color:#F1F1F1;
+}
+div#nav-joinin-content {
+	margin:0 auto;
+	max-width:960px;
+	width:100%;
+}
+div#nav-joinin-content > ul:first-child {
+	padding:37px 0;
+}
+div#nav-joinin-content > ul:first-child > li {
+	
+	display:inline-block;
+	list-style:none;
+    margin: 0 0 0 0.9%;
+    padding: 0px 4%;
+	vertical-align:top;
+    width: 23%;
+}
+div#nav-joinin-content > ul:first-child > li.joininSubMenu {border-right: 1px solid #D0D0D0;}
+
+
+div.bottom-links span.starBullet{margin:40px 0.3%}
+div.bottom-links span.sharediv .share-div-content {text-align: center;
+float: left;
+width: 90%;}
+div.bottom-join-txt{ width:51%}
+div.ambsdr-footer > ul:first-child > li {width:23%}
+div.ambsdr-footer > ul:first-child{ padding: 0 0 32px;}
+
+div#nav-joinin-content > ul:first-child > li:first-child + li + li + li {
+    border: 0 none;
+    padding-right: 0;
+}
+div#nav-joinin-content > ul:first-child > li  a {
+	color:#002663;
+	text-decoration:none;
+}
+div#nav-joinin-content > ul:first-child > li  a:hover {
+	color:#0070B7;
+	text-decoration:none;
+}
+div#nav-joinin-content > ul:first-child > li  div.heading-one {
+	font-family:"BentonSans-Bd",Arial,sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	line-height:21px;
+	padding:15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+div#nav-joinin-content > ul:first-child > li  div.heading-two {
+	font-family:"BentonSans-Md",Arial,sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	line-height:17px;
+	text-align:center;
+	padding:0 0 15px;
+}
+div#nav-rptr-shadow {
+	background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/nav-rptr-shadow.png") repeat-x;
+       display:none\9;
+	height:12px;
+	width:100%;
+}
+/* Global Navigation styles - END */
+
+/* Footer styles - BEGIN */
+div#global-footer-section1 {
+	border-top:1px solid #E3E3E3;
+	width:100%;
+}
+div.bottom-links{
+	clear:both;
+	color:#4D4F53;
+	font-size:14px;
+	height:95px;
+	line-height:17px;
+    margin:0 auto;
+	padding:0;
+    max-width:960px;
+	width:100%;
+	font-family:"BentonSans-Md",Arial,sans-serif;
+}
+div.bottom-links span{
+	float:left;
+	text-align:center;
+	width:47.5%;
+}
+/* div.bottom-links span:first-child a {
+	display:inline-block; */
+}
+div.bottom-links span a img{
+	border:0;
+	vertical-align:middle;
+}
+div.bottom-join-txt{
+	float:left;
+	width:47%;
+}
+div.bottom-links span.partners-list { width:49%; margin-top:27px }
+div.bottom-links span.partners-list .partners-list-text { text-align:center; float:right; width:62%}
+div.bottom-links span.partners-list .partners-list-text a{ margin-top:10px}
+div.bottom-links > span {
+	margin:31px 0;
+}
+div.bottom-links span.starBullet {
+	background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/spr-sbs-r2.png") no-repeat -450px -41px;
+	height:15px;
+    margin:40px 0.3%;
+    width:15px;
+}
+div.bottom-links a {
+	color:#002663;
+	font-weight:normal;
+}
+/* div.bottom-links a:hover  {
+	color:#0070B7;
+	text-decoration:none; 
+	}*/
+	
+div.bottom-links span:first-child a{display:inline-block;text-decoration:underline;font-family:"BentonSans-Bd",Arial,sans-serif;font-weight:bold;font-size:14px;color:#2196C2;}
+div.bottom-links span:first-child a:hover{color:#002663;}
+
+div.bottom-links a span.link-gt{
+	background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/spr-sbs-r2.png") no-repeat -471px -41px;
+	display:inline-block;
+	float:none;
+	height:10px;
+	width:10px;
+}
+div.bottom-links a:hover span.link-gt{
+	background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/spr-sbs-r2.png") no-repeat -471px -57px;
+}
+/*shareamex Start*/
+#share-amex-div-mobile{display:none;}
+#share-amex-div-desktop .shareamex-container.shareamex-32 {
+	height:30px;
+	width:30px;
+}
+#share-amex-div-desktop .shareamex-container.shareamex-32:first-child{
+	margin-right:12px;
+}
+.shareamex-container * {
+    border: 0 none;
+    font-family: serif;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+    outline: medium none !important;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+.shareamex-container a {
+    margin-left: 0px;
+}
+.shareamex-container span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.shareamex-container .shareamex-linktext {
+    left: -999em;
+    overflow: hidden;
+    position: absolute;
+    width: 1em;
+}
+.shareamex-container li, .shareamex-container ul {
+    float: left;
+    left: 0 !important;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.shareamex-container {
+    display: inline-block;
+    width: auto;
+}
+.shareamex-container a:focus {
+    border: thin dashed black;
+}
+.shareamex-32 span.shareamex-bgimg {
+    height: 32px;
+    width: 32px;
+}
+.shareamex-32 a {
+    padding-top: 0px;
+	display: inline-block;
+}
+.shareamex-32 .shareamex-bgsprite {
+    background-image: url("https://www.aexp-static.com/api/axpi/shareamex/2.0.4/img/sprite_32-en_US.png");
+    background-repeat: no-repeat;
+}
+.shareamex-32 .shareamex-bg-Facebook {
+    background-position: -317px 0;
+}
+.shareamex-32 .shareamex-bg-Twitter {
+    background-position: -271px 0;
+}
+.shareamex-close {
+    float: right;
+}
+.shareamex-close a {
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 45px;
+}
+.shareamex-16 span.shareamex-bgimg {
+    height: 16px;
+    width: 16px;
+}
+.shareamex-16 .shareamex-bgsprite {
+    background-image: url("https://www.aexp-static.com/api/axpi/shareamex/2.0.4/img/sprite_16-en_US.png");
+    background-repeat: no-repeat;
+}
+.shareamex-16 .shareamex-bg-Facebook {
+    background-position: -147px 0;
+}
+.shareamex-16 .shareamex-bg-Twitter {
+    background-position: -126px 0;
+}
+
+div.ambsdr-footer {
+	background-color:#F1F1F1;
+	border-top:1px solid #E3E3E3;
+	font-family:"BentonSans-Md",Arial,sans-serif;
+	padding:30px 0 52px;
+	position:relative;
+}
+div.ambsdr-footer > ul {
+	margin:0 auto;
+	max-width:960px;
+	width:100%;
+}
+div.ambsdr-footer > ul.amex-footer {padding:0 0 30px;text-align:center;}
+div.ambsdr-footer > ul:first-child {padding:0 0 57px;}
+div.ambsdr-footer > ul:first-child > li {
+    border-right: 1px solid #D0D0D0;
+    margin: 0 0 0 0.9%;
+    padding: 0 0.9% 0 0;
+    width: 22.8%;
+}
+div.ambsdr-footer > ul:first-child > li:first-child + li + li + li {
+    border: 0 none;
+    padding-right: 0;
+}
+div.ambsdr-footer > ul > li {
+	display:inline-block;
+	*float:left;
+	list-style:none;
+	text-align:center;
+	vertical-align:top;
+	width: 22%;
+}
+div.ambsdr-footer > ul li span {
+	color:#4D4F53;
+	display:block;
+	font-size:14px;
+	font-weight:normal;
+	line-height:17px;
+	margin-bottom:5px;
+	/*text-transform:uppercase;*/
+}
+div.ambsdr-footer > ul li li {
+	display:block;
+	list-style:none;
+	margin:10px 0;
+	width:100%;
+}
+div.ambsdr-footer a {
+	color:#002663;
+	font-size:14px;
+	font-weight:normal;
+	line-height:17px;
+	text-decoration:none;
+}
+div.ambsdr-footer a:hover, div.ambsdr-footer a:hover {
+	color:#0070B7;
+	text-decoration:none;
+}
+div.ambsdr-footer hr {
+	color:#666;
+	border:1px solid #C6D3D2;
+	margin:0 auto;
+	width:75%;
+}
+div.ambsdr-footer > ul.amex-footer > li {
+padding-left: 0;
+width: 16%;
+}
+div.ambsdr-footer > ul.amex-footer > li a#ad-choices {
+padding-left: 16px;
+width: 16%;
+background: url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/iNav_ngi_sprite_new.gif") no-repeat -217px -477px;
+}
+div.ambsdr-footer ul.cpyrgt {
+	color:#4D4F53;
+	font-size:14px;
+	line-height:24px;
+	text-align:center;
+}
+div.ambsdr-footer ul.cpyrgt br {display:none;}
+div.ambsdr-footer ul.cpyrgt li:first-child {
+	padding:0;
+	width:auto;
+}
+/*#ad-choices {background: url('https://www.aexp-static.com/nav/ngn/img/iNav_ngi_sprite_new.gif?ver=1030_01') no-repeat -217px -476px;
+padding-left: 18px;} */
+
+/*div.ambsdr-footer ul.cpyrgt .footer-amex-logo {
+	background-image:url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/spr-sbs-desktop.png");
+	background-position:-10px -59px;
+	display:inline-block;
+	height:40px;
+	width:40px;
+}*/
+/*shareamex End*/
+/* Footer styles - END */
+
+
+@media only screen and (max-width:960px) {
+	div.ambsdr-footer > ul {width:auto;}
+}
+
+/* Media Query - Mid tablet and Large Phone */
+@media only screen and (max-width:830px) {
+	div.ambsdr-footer {padding:30px 0px}
+	div.ambsdr-footer > ul {margin:0;width:auto;}
+	div.ambsdr-footer > ul li {margin:0;width:20%;}
+	div.ambsdr-footer > ul.amex-footer {padding-bottom:0px;}
+	div.ambsdr-footer > ul.amex-footer li {width:15%;}
+	div.ambsdr-footer > ul.amex-footer li:first-child {margin-left:0px;}
+	div.ambsdr-footer > ul.amex-footer li:last-child {margin-right:0px;}
+	div.ambsdr-footer ul.cpyrgt {margin:20px auto 0;width:100%;}
+}
+
+/* Media Query - Small and Large Phone */
+@media only screen and (max-width:660px) {
+
+
+	div#nav-content{display:none;}
+	ul#global-nav  li#amexlogo span {
+		background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/mobile/spr-sbs-r2-m.png") no-repeat -241px top;
+		height:32px;
+		width:37px;
+	}
+	div#mobile-nav-content{display:block;}
+        .ie9 div.sbs-homepg-header{margin-top:43px;}
+        .ie9 div.header-section{margin-top:44px;}
+    div#mobile-nav-content a{text-decoration:none;}
+	div#mobile-nav-content ul#global-nav{height:44px;}
+	div#mobile-nav-content ul#global-nav li {height:44px;padding:0;}
+	div#mobile-nav-content ul#global-nav li#sslogo{padding:0 0 0 1.6%;text-align:left;width:32.75%;}
+	div#mobile-nav-content span#ss-logo {
+		background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/mobile/spr-sbs-r2-m.png") no-repeat -172px top;
+		height:44px;
+		width:63px;
+	}
+	div#mobile-nav-content ul#global-nav li#amexlogo{height:39px;padding:5px 1.6% 0 0;text-align:right;width:29.75%;}
+	div#mobile-nav-content ul#global-nav li#nav-menu{float:left;width:34.3%;}
+	div#mobile-nav-content ul#global-nav li a{font-size:18px;}
+	div#mobile-nav-content ul#global-nav li#nav-menu a{padding:10px 0;}
+	div#mobile-nav-content ul#global-nav li#nav-menu a span{
+		background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/mobile/spr-sbs-r2-m.png") no-repeat -285px top;
+		display:inline-block;
+		height:10px;
+		margin-left:5px;
+		width:16px;
+	}
+
+	div#mobile-nav-content ul#global-nav  li#nav-menu:hover {background-color:#002663;}
+	div#mobile-nav-content ul#global-nav  li#nav-menu:hover a {color:#fff;}
+	div#mobile-nav-content ul#global-nav  li#nav-menu.active {background-color:#E7E8EC;}
+	div#mobile-nav-content ul#global-nav  li#nav-menu.active a {color:#0070B7;}
+	div#mobile-nav-content ul#global-nav li#nav-menu.active a span{
+		background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/mobile/spr-sbs-r2-m.png") no-repeat -285px -16px;
+	}
+	
+	div#nav-menu-layer{
+		display:none;
+		filter:alpha(opacity=95);
+		opacity:0.95;
+		position:absolute;
+		width:100%;
+		z-index:1;
+		width:100%;
+	}
+	div#nav-menu-container{background-color:#fff;width:100%;}
+	div#nav-rptr-shadow{
+		background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/mobile/nav-rptr-shadow-m.png") repeat-x;
+		height:7px;
+		width:100%;
+	}
+	div#nav-menu-container > div{margin:0 auto;text-align:center;width:59.4%;}
+	div#nav-menu-container > div a{
+		color:#002663;
+		display:inline-block;
+		font-family:"BentonSans-Bd",Arial,sans-serif;
+		font-size:18px;
+		font-weight:bold;
+		line-height:normal;
+		margin:27px 0 14px;
+        text-decoration:none;
+	}
+	div#nav-menu-container > div a:hover{text-decoration:none;}
+	div#nav-menu-container div.star-divider hr {
+		background-color:#A1AAC8;
+		border:0;
+		display:inline-block;
+		height:1px;
+		vertical-align:middle;
+		width:42%;
+	}
+	div#nav-menu-container span.blue-star{
+		background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/mobile/spr-sbs-r2-m.png") no-repeat -188px -66px;
+		height:10px;
+		width:10px;
+		margin:0 1.6%;
+		display:inline-block;
+		vertical-align:middle;
+	}
+	div.bottom-links a span.link-gt{
+		background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/mobile/spr-sbs-r2-m.png") no-repeat -240px -66px;
+		height:8px;
+		width:12px;
+	}
+	div.bottom-links a:hover span.link-gt{
+	background:transparent url("https://web.aexp-static.com/us/content/small-business/images/ShopSmall/mobile/spr-sbs-r2-m.png") no-repeat -243px -51px;
+	}
+
+	div.bottom-links {height:auto;width:auto;}
+	div.bottom-links > span:first-child{width:auto;}
+	div.bottom-links > span > br{display:none;}
+        div.bottom-links > span:first-child > br {display:block;}
+	div.bottom-links > span {display:block;float:none;font-size:11px;line-height:16px;margin:0;padding:16px 0 15px;text-align:center;width:auto;}
+	div.bottom-join-txt {display:inline-block;float:none;width:auto;}
+	div.bottom-links > span + span{width:auto;}
+	div.bottom-links > span:last-child {width:100%;}
+	div.bottom-links > span:last-child  div,div.bottom-links > span:first-child a {display: inline-block;}
+	div.bottom-links span.starBullet {
+		background:none;
+		border-bottom:1px solid #DFE3E5;
+		clear:both;
+		display:block;
+		height:1px;
+		margin:0;
+		padding:0;
+		width:100%;
+	}
+	div.bottom-links span.partners-list,div.bottom-links span.partners-list .partners-list-text {width:100%; float : none}
+div.bottom-links span.partners-list .partners-list-text a {font-weight: normal;font-size: 11px;line-height: 16px;}
+	div.share-amex-desktop {display:inline-block;width:auto;}
+	div.bottom-links span.partners-list ,div.bottom-links span.partners-list .partners-list-text a{ margin-top:0px}
+	
+	div#share-amex-div-desktop .shareamex-container.shareamex-32:first-child,
+	div#share-amex-div-desktop .shareamex-container.shareamex-32 {margin-right:0;margin-left:10px;}
+	div.bottom-links span.sharediv .share-div-content { width:100%}
+	div.share-amex-mobile{display:none;/*inline-block;margin:2px 0 15px 5px;*/}
+	div#share-amex-div-mobile .shareamex-container.shareamex-16 {width:auto;}
+	div#share-amex-div-mobile .shareamex-container.shareamex-16:first-child{margin-right:5px;}
+	div.bottom-links span.sharediv { float:left}
+	div.ambsdr-footer {text-align:center;padding:25px 0; clear:both}
+	div.ambsdr-footer a {line-height:22px;}
+	div.ambsdr-footer > ul {margin:0 auto;width:90.6%;}
+	div.ambsdr-footer > ul:first-child {padding-bottom:0px;}
+	div.ambsdr-footer > ul:first-child > li {border:0;margin:0;padding:0;width:auto;}
+	div.ambsdr-footer > ul:first-child > li:last-child {margin-bottom:22px;}
+	div.ambsdr-footer > ul li {display:block;text-align:center;}
+	div.ambsdr-footer > ul li span {line-height:22px;margin-bottom:2px;}
+	div.ambsdr-footer > ul.amex-footer {border-top:1px solid #DFE3E5;padding:25px 0 0;text-align:left;}
+	div.ambsdr-footer ul.amex-footer li {margin-bottom:10px;width:100%;}
+	div.ambsdr-footer ul.cpyrgt {margin:20px auto 30px;padding:10px 0 0;text-align:left;width:90.6%;}
+	div.ambsdr-footer ul.cpyrgt br {display:block;margin-bottom:10px;}
+	div.ambsdr-footer ul.cpyrgt li:first-child {width:100%;}
+	div.ambsdr-footer ul.cpyrgt li div {font-family:BentonSans,Arial,sans-serif;font-size:12px;line-height:15px;margin-bottom:10px;}
+	div.ambsdr-footer > ul.amex-footer li {width:auto;}
+	div.bottom-links span.partners-list .partners-list-text a {margin-top:}
+        div.ambsdr-footer li.ambsdr-footer-li ul { padding-bottom:20px}
+}
+/*** Media query code ends for Mobile,tablet devices. Please do not add any css beyond this as they'll overwrite the mediaquery specific styles  ***/
